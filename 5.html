@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5</title>
+</head>
+<body>
+<script>
+    let namestar = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus','Hậu'];
+    let namechom = ['Ursa Minor','Tarurus','Cygnus','Lyra','Aquila','Ursa Major','Leo',' Đế Vương'];
+    let star = prompt('nhập vào tên ngôi sao');
+    function kiemtrachomsao(star) {
+        if(namestar.indexOf(star)!=-1){
+            alert('ngôi sao '+star + ' thuộc chòm sao '+namechom[namestar.indexOf(star)])
+        }
+        else {alert('không tìm thấy chòm sao phù hợp')};
+    }
+    kiemtrachomsao(star);
+</script>
+</body>
+</html>
